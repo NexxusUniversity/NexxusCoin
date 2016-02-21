@@ -1,0 +1,9 @@
+Building NexxusCoin
+
+See doc/readme-qt.rst for instructions on building NexxusCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of NexxusCoin.
+
+See doc/build-*.txt for instructions on building nexxuscoindd,
+the intended-for-services, no-graphical-interface, reference
+implementation of NexxusCoin.
