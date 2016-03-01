@@ -43,6 +43,7 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfStakeLimitV2(~uint256(0) >> 48);
 
 unsigned int nStakeMinAge = 8 * 60 * 60; // 8 hours
+
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 40;
@@ -978,7 +979,7 @@ int64_t GetProofOfWorkRewardPremine(int64_t nFees)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-    int64_t nSubsidy = 598e+4 * COIN;
+    int64_t nSubsidy = 299e+4 * COIN;
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);
 

@@ -102,7 +102,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x3222908b96140f1580df67f2bdcb0d21f518c87f4b47287e493a5b7774a8e898"));
 
 
-        vSeeds.push_back(CDNSSeedData("104.200.159.103", "104.200.159.103"));
+//        vSeeds.push_back(CDNSSeedData("104.200.159.103", "104.200.159.103"));
         vSeeds.push_back(CDNSSeedData("104.200.159.104", "104.200.159.104"));
         base58Prefixes[PUBKEY_ADDRESS] = list_of(53);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
@@ -112,7 +112,7 @@ public:
 
 //        convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        nLastPOWBlock = 50;
+        nLastPOWBlock = 100;
     }
 
     virtual const CBlock& GenesisBlock() const { return genesis; }
