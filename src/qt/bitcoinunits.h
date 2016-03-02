@@ -20,7 +20,7 @@ public:
     enum Unit
     {
         NXC,
-        Nexxie,
+        Nexxi,
     };
 
     //! @name Static API
