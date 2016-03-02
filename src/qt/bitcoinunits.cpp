@@ -33,7 +33,7 @@ QString BitcoinUnits::name(int unit)
     switch(unit)
     {
     case NXC: return QString("NXC");
-    case Nexxie: return QString("Nexxie");
+    case Nexxi: return QString("Nexxi");
     default: return QString("???");
     }
 }
@@ -43,7 +43,7 @@ QString BitcoinUnits::description(int unit)
     switch(unit)
     {
     case NXC: return QString("NexxusCoins");
-    case Nexxie: return QString("Nexxie (1 / 100)");
+    case Nexxi: return QString("Nexxi (1 / 100)");
     default: return QString("???");
     }
 }
@@ -53,7 +53,7 @@ qint64 BitcoinUnits::factor(int unit)
     switch(unit)
     {
     case NXC:  return 100;
-    case Nexxie: return 100;
+    case Nexxi: return 100;
     default:   return 100;
     }
 }
@@ -63,7 +63,7 @@ int BitcoinUnits::amountDigits(int unit)
     switch(unit)
     {
     case NXC: return 16; // 21,000,000 (# digits, without commas)
-    case Nexxie: return 16; // 21,000,000,000
+    case Nexxi: return 16; // 21,000,000,000
     default: return 0;
     }
 }
@@ -73,7 +73,7 @@ int BitcoinUnits::decimals(int unit)
     switch(unit)
     {
     case NXC: return 2;
-    case Nexxie: return 2;
+    case Nexxi: return 2;
     default: return 0;
     }
 }
@@ -83,7 +83,7 @@ int BitcoinUnits::step(int unit)
     switch(unit)
     {
     case NXC: return 100;
-    case Nexxie: return 1;
+    case Nexxi: return 1;
     default: return 100;
     }
 }
