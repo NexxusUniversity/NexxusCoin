@@ -20,8 +20,8 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case DGR:
-    case DGPaise:
+    case NXC:
+    case Nexxie:
         return true;
     default:
         return false;
@@ -32,8 +32,8 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case DGR: return QString("DGR");
-    case DGPaise: return QString("DGPaise");
+    case NXC: return QString("NXC");
+    case Nexxie: return QString("Nexxie");
     default: return QString("???");
     }
 }
@@ -42,8 +42,8 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case DGR: return QString("NexxusCoins");
-    case DGPaise: return QString("DGPaise (1 / 100)");
+    case NXC: return QString("NexxusCoins");
+    case Nexxie: return QString("Nexxie (1 / 100)");
     default: return QString("???");
     }
 }
@@ -52,8 +52,8 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case DGR:  return 100;
-    case DGPaise: return 100;
+    case NXC:  return 100;
+    case Nexxie: return 100;
     default:   return 100;
     }
 }
@@ -62,8 +62,8 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case DGR: return 16; // 21,000,000 (# digits, without commas)
-    case DGPaise: return 16; // 21,000,000,000
+    case NXC: return 16; // 21,000,000 (# digits, without commas)
+    case Nexxie: return 16; // 21,000,000,000
     default: return 0;
     }
 }
@@ -72,8 +72,8 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case DGR: return 2;
-    case DGPaise: return 2;
+    case NXC: return 2;
+    case Nexxie: return 2;
     default: return 0;
     }
 }
@@ -82,8 +82,8 @@ int BitcoinUnits::step(int unit)
 {
     switch(unit)
     {
-    case DGR: return 100;
-    case DGPaise: return 1;
+    case NXC: return 100;
+    case Nexxie: return 1;
     default: return 100;
     }
 }
