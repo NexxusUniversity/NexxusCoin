@@ -19,8 +19,7 @@ public:
      */
     enum Unit
     {
-        DGR,
-        DGPaise,
+        NXC,
     };
 
     //! @name Static API
