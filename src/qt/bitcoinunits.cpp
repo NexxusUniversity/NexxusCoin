@@ -11,8 +11,8 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(DGR);
-    unitlist.append(DGPaise);
+    unitlist.append(NXC);
+    unitlist.append(Nexxi);
     return unitlist;
 }
 
