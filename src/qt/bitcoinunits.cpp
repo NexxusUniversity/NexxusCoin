@@ -21,7 +21,7 @@ bool BitcoinUnits::valid(int unit)
     switch(unit)
     {
     case NXC:
-    case Nexxie:
+    case Nexxi:
         return true;
     default:
         return false;
