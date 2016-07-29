@@ -20,7 +20,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::NXC)
+    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::DGR)
     {
 
     }

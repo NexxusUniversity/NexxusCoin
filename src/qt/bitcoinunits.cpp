@@ -11,8 +11,8 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(NXC);
-    unitlist.append(Nexxi);
+    unitlist.append(DGR);
+    unitlist.append(DGPaise);
     return unitlist;
 }
 
@@ -20,8 +20,8 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case NXC:
-    case Nexxi:
+    case DGR:
+    case DGPaise:
         return true;
     default:
         return false;
@@ -32,8 +32,8 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case NXC: return QString("NXC");
-    case Nexxi: return QString("Nexxi");
+    case DGR: return QString("DGR");
+    case DGPaise: return QString("DGPaise");
     default: return QString("???");
     }
 }
@@ -42,8 +42,8 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case NXC: return QString("NexxusCoins");
-    case Nexxi: return QString("Nexxi (1 / 100)");
+    case DGR: return QString("NexxusCoins");
+    case DGPaise: return QString("DGPaise (1 / 100)");
     default: return QString("???");
     }
 }
@@ -52,8 +52,8 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case NXC:  return 100;
-    case Nexxi: return 100;
+    case DGR:  return 100;
+    case DGPaise: return 100;
     default:   return 100;
     }
 }
@@ -62,8 +62,8 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case NXC: return 16; // 21,000,000 (# digits, without commas)
-    case Nexxi: return 16; // 21,000,000,000
+    case DGR: return 16; // 21,000,000 (# digits, without commas)
+    case DGPaise: return 16; // 21,000,000,000
     default: return 0;
     }
 }
@@ -72,8 +72,8 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case NXC: return 2;
-    case Nexxi: return 2;
+    case DGR: return 2;
+    case DGPaise: return 2;
     default: return 0;
     }
 }
@@ -82,8 +82,8 @@ int BitcoinUnits::step(int unit)
 {
     switch(unit)
     {
-    case NXC: return 100;
-    case Nexxi: return 1;
+    case DGR: return 100;
+    case DGPaise: return 1;
     default: return 100;
     }
 }
