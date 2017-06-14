@@ -39,14 +39,14 @@ void OptionsModel::Init()
     QSettings settings;
 
     // These are Qt-only settings:
-    nDisplayUnit = settings.value("nDisplayUnit", BitcoinUnits::NXC).toInt();
+    nDisplayUnit = settings.value("nDisplayUnit", BitcoinUnits::NXX).toInt();
     fMinimizeToTray = settings.value("fMinimizeToTray", false).toBool();
     fMinimizeOnClose = settings.value("fMinimizeOnClose", false).toBool();
     fCoinControlFeatures = settings.value("fCoinControlFeatures", false).toBool();
     nTransactionFee = settings.value("nTransactionFee").toLongLong();
     nReserveBalance = settings.value("nReserveBalance").toLongLong();
     language = settings.value("language", "").toString();
-    fUseBlackTheme = false;
+    fUseBlackTheme = settings.value("fUseBlackTheme", true).toBool();
 
     // These are shared with core Bitcoin; we want
     // command-line options to override the GUI settings:
@@ -194,7 +194,7 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
            settings.setValue("fMinimizeCoinAge", fMinimizeCoinAge);
            break;
         case UseBlackTheme:
-            fUseBlackTheme = false;
+            fUseBlackTheme = value.toBool();
             settings.setValue("fUseBlackTheme", fUseBlackTheme);
             break;
         default:

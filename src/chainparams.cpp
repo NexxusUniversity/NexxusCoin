@@ -57,14 +57,7 @@ public:
         nRPCPort = 16533;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
-        // Build the genesis block. Note that the output of the genesis coinbase cannot
-        // be spent as it did not originally exist in the database.
-        //
-        //CBlock(hash=000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=12630d16a97f24b287c8c2594dda5fb98c9e6c70fc61d44191931ea2aa08dc90, nTime=1393221600, nBits=1e0fffff, nNonce=164482, vtx=1, vchBlockSig=)
-        //  Coinbase(hash=12630d16a9, nTime=1393221600, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-        //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
-        //    CTxOut(empty)
-        //  vMerkleTree: 12630d16a9
+
         const char* pszTimestamp = "06 Jul 2015, Sky News: Greece Referendum No Vote";
         std::vector<CTxIn> vin;
         vin.resize(1);
@@ -80,20 +73,6 @@ public:
         genesis.nTime    = 1455725608;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 247746;
-
-        // printf("Mining Genesis, genesis.nTime = %u \n", genesis.nTime);
-        // uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        // while (genesis.GetHash() > hashTarget) {
-        //     ++genesis.nNonce;
-        //     if (genesis.nNonce == 0) { ++genesis.nTime; }
-        // }
-
-        // // log your full genesis block (ntime, nonce, hash & tx merkle root)
-        // printf("genesis.nTime = %u \n", genesis.nTime);
-        // printf("genesis.nNonce = %u \n", genesis.nNonce);
-        // printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        // printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
- 
        
         hashGenesisBlock = genesis.GetHash();
         string hash = hashGenesisBlock.ToString();
@@ -102,15 +81,21 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x3222908b96140f1580df67f2bdcb0d21f518c87f4b47287e493a5b7774a8e898"));
 
 
-//        vSeeds.push_back(CDNSSeedData("104.200.159.103", "104.200.159.103"));
         vSeeds.push_back(CDNSSeedData("104.200.159.104", "104.200.159.104"));
+        vSeeds.push_back(CDNSSeedData("159.203.32.37", "159.203.32.37"));
+        vSeeds.push_back(CDNSSeedData("178.62.231.34", "178.62.231.34"));
+        vSeeds.push_back(CDNSSeedData("162.243.137.85", "162.243.137.85"));
+        vSeeds.push_back(CDNSSeedData("188.166.161.106", "188.166.161.106"));
+        vSeeds.push_back(CDNSSeedData("128.199.97.93", "128.199.97.93"));
+        vSeeds.push_back(CDNSSeedData("104.200.159.105", "104.200.159.105"));
+        vSeeds.push_back(CDNSSeedData("104.200.159.106", "104.200.159.106"));
+
+
         base58Prefixes[PUBKEY_ADDRESS] = list_of(53);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
         base58Prefixes[SECRET_KEY]     = list_of(153);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4);
-
-//        convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         nLastPOWBlock = 100;
     }
@@ -151,19 +136,6 @@ public:
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 20334;
-
-        // printf("Mining Genesis Testnet, genesis.nTime = %u \n", genesis.nTime);
-        // uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        // while (genesis.GetHash() > hashTarget) {
-        // ++genesis.nNonce;
-        // if (genesis.nNonce == 0) { ++genesis.nTime; }
-        // }
-
-        // // log your full genesis block (ntime, nonce, hash & tx merkle root)
-        // printf("genesis.nTime = %u \n", genesis.nTime);
-        // printf("genesis.nNonce = %u \n", genesis.nNonce);
-        // printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        // printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
 
         hashGenesisBlock = genesis.GetHash();
@@ -206,19 +178,6 @@ public:
         nDefaultPort = 18444;
         strDataDir = "regtest";
         
-        // printf("Mining Genesis Testnet Regtest, genesis.nTime = %u \n", genesis.nTime);
-        // uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        // while (genesis.GetHash() > hashTarget) {
-        // ++genesis.nNonce;
-        // if (genesis.nNonce == 0) { ++genesis.nTime; }
-        // }
-
-        // // log your full genesis block (ntime, nonce, hash & tx merkle root)
-        // printf("genesis.nTime = %u \n", genesis.nTime);
-        // printf("genesis.nNonce = %u \n", genesis.nNonce);
-        // printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        // printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-
         assert(hashGenesisBlock == uint256("0x4ec87dd06d0b11a15c5c28d046be218b2bcf288dcd404a40539a718629dc68e6"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.

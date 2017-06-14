@@ -19,7 +19,7 @@ public:
      */
     enum Unit
     {
-        NXC,
+        NXX,
         Nexxi,
     };
 
