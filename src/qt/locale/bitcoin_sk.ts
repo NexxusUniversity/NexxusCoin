@@ -15,12 +15,10 @@
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The NexxusCoin developers</source>
+Copyright © 2014 The NexxusCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The NexxusCoin developers</translation>
+Copyright © 2014 The NexxusCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -111,17 +109,17 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <translation>&amp;Zmazať</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopírovať &amp;Popis</translation>
+        <translation>Kopírovať &amp;popis</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>&amp;Upraviť</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+248"/>
         <source>Export Address Book Data</source>
         <translation>Exportovať dáta z adresára</translation>
     </message>
@@ -538,7 +536,7 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+2"/>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Nestávkujem pretože nemáte odležané mince</translation>
+        <translation>Nestávkujem pretože nemáte dozreté mince</translation>
     </message>
     <message>
         <location line="-812"/>
@@ -563,7 +561,7 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+277"/>
         <source>Up to date</source>
-        <translation>Aktualizovaný</translation>
+        <translation>Aktualizované</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1201,12 +1199,12 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-57"/>
         <source>Connect to the NexxusCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"/>
+        <translation>Pripojiť k sieti NexxusCoin cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS5 proxy:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pripojenie cez SOCKS5 proxy:</translation>
     </message>
     <message>
         <location line="+90"/>
@@ -1236,7 +1234,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Displej</translation>
+        <translation>&amp;Zobraznie</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -1277,6 +1275,11 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+3"/>
         <source>Minimize weight consumption (experimental)</source>
         <translation>Minimalizovať spotrebu hmotnosti (experimentálne)</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Use black visual theme (requires restart)</source>
+        <translation>Použiť čiernu vizuálnu tému (vyžaduje reštart)</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1794,8 +1797,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a NexxusCoin address (e.g. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte NexxusCoin adresu (napr. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexxusCoin address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Zadajte NexxusCoin adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1927,8 +1930,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa pre poslanie platby (napr. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to send the payment to (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Adresa pre poslanie platby (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1968,8 +1971,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a NexxusCoin address (e.g. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte NexxusCoin adresu (napr. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexxusCoin address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Zadajte NexxusCoin adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
 </context>
 <context>
@@ -1992,8 +1995,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa na podpísanie správy (napr. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to sign the message with (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Adresa na podpísanie správy (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2056,8 +2059,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa správy bola podpísaná (napr. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address the message was signed with (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Adresa správy bola podpísaná (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2072,8 +2075,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a NexxusCoin address (e.g. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte NexxusCoin adresu (napr. A8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexxusCoin address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Zadajte NexxusCoin adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2652,7 +2655,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+212"/>
         <source>Sending...</source>
         <translation>Posielam...</translation>
     </message>
@@ -2660,9 +2663,9 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+171"/>
         <source>NexxusCoin version</source>
-        <translation>NexxusCoin verzia</translation>
+        <translation>Verzia NexxusCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2685,7 +2688,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Získať pomoc pre príkaz</translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="-145"/>
         <source>Options:</source>
         <translation>Možnosti:</translation>
     </message>
@@ -2746,8 +2749,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 13730 or testnet: 23730)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 13730 alebo testovacia sieť: 23730)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 16178 or testnet: 25714)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 16178 alebo testovacia sieť: 25714)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2780,7 +2783,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Vždy sa pýtať na partnerské adresy pomocou vyhľadávania DNS (predvolené: 0)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Hranica pre odpojenie zle sa správajúcich peerov (predvolené: 100)</translation>
     </message>
@@ -2790,14 +2793,14 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Počet sekúnd kedy sa zabráni zle sa správajúcim peerom znovupripojenie (predvolené: 86400)</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-35"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Pri nastavovaní portu RPC %u pre počúvanie na IPv4 došlo k chybe: %s</translation>
     </message>
     <message>
-        <location line="+63"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16532 or testnet: 23731)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 16532 alebo testovacia sieť: 23731)</translation>
+        <location line="+62"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16174 or testnet: 25715)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 16174 alebo testovacia sieť: 25715)</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -2815,7 +2818,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Použiť testovaciu sieť</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Prijímať pripojenie z vonka (predvolené: 1, ak nie -proxy alebo -connect)</translation>
     </message>
@@ -2825,7 +2828,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Pri nastavovaní portu RPC %u pre počúvanie na IPv6, spadne späť do IPv4 došlo k chybe: %s</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+93"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Nastavte maximálnu veľkosť high-priority/low-fee transakcií v bajtoch (predvolené: 27000)</translation>
     </message>
@@ -2835,17 +2838,17 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Upozornenie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="-103"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NexxusCoin will not work properly.</source>
         <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny NexxusCoin nebude pracovať správne.</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="+130"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Upozornenie: Chyba pri čítaní wallet.dat! Všetky kľúče načítané správne, ale transakčné dáta alebo položky adresára môže chýbať alebo byť nesprávne.</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Upozornenie: wallet.dat poškodený, údaje zachránené! Pôvodný wallet.dat bol uložený ako wallet.{timestamp}.bak v %s; ak váš zostatok alebo transakcie nie sú správne, mali by ste obnoviť zo zálohy.</translation>
     </message>
@@ -2857,10 +2860,10 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
     <message>
         <location line="+5"/>
         <source>Block creation options:</source>
-        <translation>Voľby vytvorenia bloku:</translation>
+        <translation>Možnosti vytvorenia bloku:</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-67"/>
         <source>Connect only to the specified node(s)</source>
         <translation>Pripojiť sa len k určenému uzlu(om)</translation>
     </message>
@@ -2870,17 +2873,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Objavte vlastnú IP adresa (predvolené: 1 pri počúvaní a nie -externalip)</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+101"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Nepodarilo sa počúvať žiadnom porte. Použite -listen=0 ak to chcete.</translation>
     </message>
     <message>
-        <location line="-92"/>
-        <source>Sync checkpoints policy (default: strict)</source>
-        <translation>Sync checkpoints policy (predvolené: strict)</translation>
-    </message>
-    <message>
-        <location line="+90"/>
+        <location line="-2"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>Neplatná -tor adresa: &apos;%s&apos;</translation>
     </message>
@@ -2900,12 +2898,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Maximum pre-pripojenie posielacej vyrovnávacej pamäti, &lt;n&gt;*1000 bajtov (predvolené: 1000)</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>Pripojiť len k uzlom siete &lt;net&gt; (IPv4, IPv6 alebo Tor)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+30"/>
         <source>Prepend debug output with timestamp</source>
         <translation>Pred debug výstup s časovou pečiatkou</translation>
     </message>
@@ -2935,19 +2933,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Stlačiť debug.log súbor na spustenie klienta (predvolené: 1, keď nie -debug)</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-41"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Určiť aut spojenia v milisekundách (predvolené: 5000)</translation>
     </message>
     <message>
-        <location line="+116"/>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation>Nemožno podpísať kontrolný bod, zlý checkpointkey?
-</translation>
-    </message>
-    <message>
-        <location line="-87"/>
+        <location line="+28"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (default: 0)</translation>
     </message>
@@ -2957,12 +2948,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (default: 1 when listening)</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation>Použiť proxy server k získaniu Tor skrytých služieb (predvolené: rovnaká ako -proxy)</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
     </message>
@@ -2972,7 +2963,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Overenie integrity databázy ...</translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+42"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Chyba: Peňaženka je zamknutá, nie je možné vytvoriť transakciu!</translation>
     </message>
@@ -3002,17 +2993,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Informácia</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>UPOZORNENIE: detekovaný synchronizovaný porušený checkpoint, ale preskočený!</translation>
-    </message>
-    <message>
-        <location line="-1"/>
+        <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Upozornenie: Táto verzia je zastaraná, vyžaduje sa aktualizácia!</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-52"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat je poškodený, záchrana zlyhala</translation>
     </message>
@@ -3022,9 +3008,9 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Heslo pre JSON-rPC spojenia</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-47"/>
         <source>Connect through SOCKS5 proxy</source>
-        <translation type="unfinished"/>
+        <translation>Pripojenie cez SOCKS5 proxy</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3032,7 +3018,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Synchronizácia času s ostatnými uzlami. Zakázať ak čas na vašom systéme je presný, napr synchronizáciu s NTP (predvolené: 1)</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+12"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation>Pri vytváraní transakcií, ignorovať vstupy s hodnotou nižšou než táto (predvolené: 0.01)</translation>
     </message>
@@ -3122,7 +3108,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Importovať bloky z externého blk000?.dat súbora</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+1"/>
+        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
     </message>
@@ -3139,7 +3130,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
     <message>
         <location line="+5"/>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation type="unfinished"/>
+        <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3147,9 +3138,9 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Úvodné kontrolné testy zlyhali. NexxusCoin sa teraz zatvori.</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+20"/>
         <source>Error loading block database</source>
-        <translation type="unfinished"/>
+        <translation>Chyba pri načítaní databáze blokov</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -3157,7 +3148,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Chyba: Peňaženka je odomknutá len pre stávkovanie, nemožné vytvoriť transakciu.</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+16"/>
         <source>Error: Disk space is low!</source>
         <translation>Chyba: Nedostatok miesta na disku!</translation>
     </message>
@@ -3167,34 +3158,29 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>UPOZORNENIE: Neplatný checkpoint nájdený! Uvedené transakcie nemusia byť správne! Možno budete musieť upgradovať, alebo upozorniť vývojárov.</translation>
-    </message>
-    <message>
-        <location line="-174"/>
+        <location line="-168"/>
         <source>This help message</source>
         <translation>Táto pomocná správa</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+104"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>Peňaženka %s je umiestnená mimo dátový adresár %s.</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+35"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Nemôžem sa pripojiť k %s na tomto počítači (bind vrátil chybu %d, %s)</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-129"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Povoliť vyhľadávanie DNS pre pridanie nódy a spojenie</translation>
+        <translation>Povoliť vyhľadávania DNS pre -addnode, -seenode a -connect</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+125"/>
         <source>Loading addresses...</source>
-        <translation>Načítavanie adries...</translation>
+        <translation>Načítavajú sa adresy...</translation>
     </message>
     <message>
         <location line="-10"/>
@@ -3217,7 +3203,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Chyba načítania wallet.dat</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-15"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Neplatná adresa proxy: &apos;%s&apos;</translation>
     </message>
@@ -3229,12 +3215,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
     <message>
         <location line="+3"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Nemožno rozložiť -bind adresu: &apos;%s&apos;</translation>
+        <translation>Nedá sa vyriešiť -bind adresa: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Nemožno rozložiť -externalip adresu: &apos;%s&apos;</translation>
+        <translation>Nemožno vyriešiť -externalip adresu: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-22"/>
@@ -3242,7 +3228,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+58"/>
         <source>Sending...</source>
         <translation>Posielam...</translation>
     </message>
@@ -3259,20 +3245,20 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
     <message>
         <location line="-40"/>
         <source>Loading block index...</source>
-        <translation>Načítavanie zoznamu blokov...</translation>
+        <translation>Načítava sa zoznam blokov...</translation>
     </message>
     <message>
-        <location line="-111"/>
+        <location line="-109"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pridať nód na pripojenie a pokus o udržanie pripojenia otvoreného</translation>
+        <translation>Pridať uzol pre pripojenie a pokúsiť sa udržať otvorené pripojenie</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+124"/>
         <source>Unable to bind to %s on this computer. NexxusCoin is probably already running.</source>
         <translation>Nemôžem sa pripojiť na %s na tomto počítači. NexxusCoin je pravdepodobne už beží.</translation>
     </message>
     <message>
-        <location line="-102"/>
+        <location line="-101"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Poplatok za KB pridať do transakcií, ktoré odosielate</translation>
     </message>
@@ -3287,12 +3273,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Koľko blokov skontrolovať pri štarte (predvolené: 2500, 0 = všetky) {500, 0 ?}</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation>Uchovávať najviac &lt;n&gt; nepripojiteľných blokov v pamäti (predvolené: %u)</translation>
-    </message>
-    <message>
-        <location line="+11"/>
+        <location line="+14"/>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
         <translation>Akceptovateľné šifry (predvolené: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
     </message>
@@ -3317,7 +3298,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Chyba pri inicializácii databázového prostredia peňaženky %s!</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>Načítavam peňaženku...</translation>
     </message>
@@ -3329,7 +3310,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
     <message>
         <location line="+1"/>
         <source>Cannot write default address</source>
-        <translation>Nie je možné zapísať predvolenú adresu.</translation>
+        <translation>Nie je možné zapísať predvolenú adresu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3342,12 +3323,12 @@ napríklad: alertnotify=echo %%s | mail -s &quot;NexxusCoin upozornenie&quot; ad
         <translation>Dokončené načítavanie</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-159"/>
         <source>To use the %s option</source>
         <translation>Použiť možnosť %s</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="+186"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
